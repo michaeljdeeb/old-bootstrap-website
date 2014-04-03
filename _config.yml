@@ -1,0 +1,4 @@
+name: blog.michaeljdeeb.com
+markdown: redcarpet
+pygments: true
+baseurl: /

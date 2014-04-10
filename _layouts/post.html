@@ -19,7 +19,11 @@ layout: default
     <p>Tags:
     <span class="meta">
         {% for tag in page.tags %}
-            {{ tag }}
+            {% if forloop.last%}
+                {{ tag }}
+            {% else %}
+                {{ tag }} |
+            {% endif %}
         {% endfor %}
     </span>
     </p>

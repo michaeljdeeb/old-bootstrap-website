@@ -32,4 +32,4 @@ Now your project is all setup to read input from a text file within the applicat
 
 If you’d like to see what I came up with as a solution you can download the gist [here](https://gist.github.com/michaeljdeeb/5131772).
 
-~~It’s been awhile since I’ve had to deal with Objective-C, so if you have any ways to improve/refactor this code, definitely leave it in the comments or link to your solution to this challenge.~~
+<s>It’s been awhile since I’ve had to deal with Objective-C, so if you have any ways to improve/refactor this code, definitely leave it in the comments or link to your solution to this challenge.</s>

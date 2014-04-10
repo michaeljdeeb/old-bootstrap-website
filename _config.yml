@@ -2,7 +2,7 @@ name: michaeljdeeb.com
 markdown: redcarpet
 pygments: true
 baseurl: /
-url: http://michaeljdeeb.github.io
+url: http://michaeljdeeb.com
 permalink: /blog/:title
 timezone: America/Minneapolis
 paginate: 10

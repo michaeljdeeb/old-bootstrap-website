@@ -2,8 +2,15 @@
 layout: default
 ---
 <h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date: "%A | %B %d %Y | %I:%M %p" }}</p>
-
+<div class="row">
+    <div class="col-xs-6 text-left meta">
+        {{ page.date | date: "%A | %B %d %Y | %I:%M %p" }}
+    </div>
+    <div class="col-xs-6 text-right meta">
+        By Michael Deeb</a>
+    </div>
+</div>
+<hr>
 <div class="post">
 {{ content }}
 </div>

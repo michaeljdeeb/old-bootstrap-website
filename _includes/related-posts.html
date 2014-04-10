@@ -1,0 +1,10 @@
+<hr>
+<div class="row text-center">
+    {% for related in site.related_posts limit:3 %}
+    <div class="col-md-4 text-left related-posts">
+        <h4><a href="{{ related.url }}">{{ related.title }}</a></h4>
+        <p>{{ related.excerpt }}</p>
+        <p class="meta">{{ related.date | date: "%A | %B %d %Y | %I:%M %p" }}</p>
+    </div>
+    {% endfor %}
+</div>

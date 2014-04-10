@@ -1,5 +1,9 @@
-name: blog.michaeljdeeb.com
+name: michaeljdeeb.com
 markdown: redcarpet
 pygments: true
 baseurl: /
+url: http://michaeljdeeb.github.io
 permalink: /blog/:title
+timezone: America/Minneapolis
+paginate: 10
+paginate_path: "/blog/page:num"

@@ -1,0 +1,26 @@
+<div class="col-sm-3 col-sm-offset-1">
+    <div class="sidebar-module sidebar">
+        <div class="text-center hidden-xs">
+            <img src="/resources/images/selfie.jpg" alt="Selfie" class="img-circle img-responsive">
+        </div>
+        <div class="text-center visible-xs">
+            <img src="/resources/images/selfie.jpg" alt="Selfie" class="img-circle" width="175" height="175">
+        </div>
+        <p>
+            Hello world!
+        </p>
+        <p>
+            My name is Michael J. Deeb and I'm a Software Engineer. I write code in Java by trade, but front-end web development is where I want to be. When I'm not trying to develop  great things, I'm attempting to take great photos (iPhone and DSLR) and make great music (Ableton Live 9 and Ableton Push).
+        </p>
+    </div>
+    {% if page.active == "blog" %}
+    <div class="hidden-xs sidebar">
+        <h4>Tags:</h4>
+        <p class="tags">
+            {% for tag in site.tags %}
+                <div class="tag pull-left">{{ tag | first }}</div>
+            {% endfor %}
+        </p>
+    </div>
+    {% endif %}
+</div>

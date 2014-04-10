@@ -1,0 +1,45 @@
+---
+layout: default
+active: "resume"
+title:  Résumé
+description: "Michael Deeb is a Software Engineer from the Midwest for hire."
+image: "selfie.jpg"
+---
+<script>
+
+</script>
+<h1 class="header">Résumé</h1>
+<p class="meta">Education | Experience | Skills</p>
+<hr>
+<div class="row">
+    <div class="col-sm-4 visible-xs">
+        <p><a href="#resume">Resume.html: April 2014</a></p>
+        <p>*You're already here. Click above or scroll down to experience.</p>
+    </div>
+    <div class="col-sm-4">
+        <p class="hidden-xs"><a href="/resources/resume.pdf"><img src="/resources/images/contact/pdf-not-selected.png" class="img-responsive pdf-hover" alt="PDF résumé icon"></a></p>
+        <p class="visible-xs"><a href="/resources/resume.pdf"><img src="/resources/images/contact/pdf-not-selected.png" class="pdf-hover" width="175" height="175" alt="PDF résumé icon"></a></p>
+        <p><a href="/resources/resume.pdf">Resume.pdf: April 2014</a></p>
+        <p>*Doesn't import nicely into applicant tracking software.</p>
+    </div>
+    <div class="col-sm-4 hidden-xs">
+        <p><a href="#resume">Resume.html: April 2014</a></p>
+        <p>*You're already here. Click above or scroll down to experience.</p>
+    </div>
+    <div class="col-sm-4">
+        <p class="hidden-xs"><a href="/resources/resume.markdown"><img src="/resources/images/contact/markdown-not-selected.png" class="img-responsive markdown-hover" alt="Markdown résumé icon"></a></p>
+        <p class="visible-xs"><a href="/resources/resume.markdown"><img src="/resources/images/contact/markdown-not-selected.png" class="markdown-hover" width="175" height="175" alt="Markdown résumé icon"></a></p>
+        <p><a href="/resources/resume.markdown">Resume.markdown: April 2014</a></p>
+        <p>*You're going to want to right-click that link and click "Download Linked File".</p>
+        <p>**.markdown files can be opened in any text editor, but they won't look as nice as they do below.</p>
+    </div>
+</div>
+
+<a name="resume"></a>
+<div class="padding-fix">
+</div>
+<hr>
+<div class="resume">
+    {% capture resume %}{% include resume.markdown %}{% endcapture %}
+    {{ resume | markdownify }}
+</div>

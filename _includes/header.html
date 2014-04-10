@@ -1,16 +1,69 @@
-<!DOCTYPE html>
-<html>
-    <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>{{ page.title }} | Michael J. Deeb</title>
+        <!-- favicon placeholder -->
+        <!-- Page descriptions 155 characters or less. -->
+        <meta name="description" content="{{ page.description }}">
+
+        <!-- Google Authorship and Publisher Markup -->
+        <link rel="author" href="https://plus.google.com/117636037814189714964/posts">
+
+        <!-- Schema.org markup for Google+ -->
+        <!-- Google+ wants something square and height >= 120px and width >= 100px -->
+        <!-- Google will also use open graph, so maybe omit this? -->
+        <meta itemprop="name" content="{{ page.title }}">
+        <meta itemprop="description" content="{{ page.description }}">
+        <meta itemprop="image" content="{{ site.url }}/resources/images/{{ page.image }}">
+
+        <!-- Twitter Card data -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@michaeljdeeb">
+        <meta name="twitter:title" content="{{ page.title }}">
+        <meta name="twitter:description" content="{{ page.description }}">
+        <meta name="twitter:creator" content="@michaeljdeeb">
+
+        <!-- Open Graph data -->
+        <meta property="og:title" content="{{ page.title }}" />
+        <meta property="og:type" content="{{ page.type }}" />
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+        <!-- Facebook wants at least 1200x630 -->
+        <meta property="og:image" content="{{ site.url }}/resources/images/{{ page.image }}" />
+        <meta property="og:description" content="{{ page.description }}" />
+        <meta property="og:site_name" content="michaeljdeeb.github.io" />
+        <meta property="fb:admins" content="1272690115" />
+
+        <!-- These should be placed somewhere that will only get hit by posts.
+        <meta property="article:published_time" content="2013-09-17T05:59:00+01:00" />
+        <meta property="article:modified_time" content="2013-09-16T19:08:47+01:00" />
+        <meta property="article:section" content="Article Section" />
+        <meta property="article:tag" content="Article Tag" /> -->
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/custom.css">
 
-    </head>
-    <body>
+        <!-- Boostrap -->
+        <link rel="stylesheet" href="/css/bootstrap.css">
+
+        <!-- Font Awesome-->
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="/js/bootstrap.js"></script>
+
+        <!-- Place this tag in your head or just before your close body tag. -->
+        <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-49663508-1', 'michaeljdeeb.github.io');
+            ga('send', 'pageview');
+        </script>

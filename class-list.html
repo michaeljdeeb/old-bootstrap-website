@@ -1,0 +1,14 @@
+---
+layout: default
+title:  "Class List"
+description: "An extensive outline of the courses Michael J. Deeb took as an undergrad."
+image: ""
+---
+
+<h1 class="header">Undergrad Class List</h1>
+<p class="meta">Java | Web | MySQL</p>
+<hr>
+<p><a href="/resume.html">Back to my résumé</a></p>
+{% capture classes %}{% include class-list.markdown %}{% endcapture %}
+{{ classes | markdownify }}
+<a href="/resume.html">Back to my résumé</a>

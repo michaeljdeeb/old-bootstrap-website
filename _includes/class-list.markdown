@@ -1,0 +1,38 @@
+- Internship (Java)
+- Advanced Software Engineering (HTML)(CSS)(Javascript)(PHP)(MySQL)
+- Food Technology
+- Foundations Language of Math
+- General Ethics
+- History of Science & Technology
+- Software Engineering (Java)
+- Intro to Computer Security
+- College Physics II
+- Probability and Statistics for Engineering and Science
+- Summer Internship (SQL)
+- Algorithms & Artificial Intelligence
+- College Physics I
+- Database Systems (MySQL)
+- Systems Programming (C)
+- Modern Algebra I
+- Real Analysis I
+- Math Foundations of Computer Graphics (C++)(OpenGL)
+- Computer Architecture
+- Technical Writing
+- Summer Internship (C)(Objective-C)
+- Linear Algebra
+- Modern Geometry
+- Introduction to Computer Organization (Assembly)
+- Web & Internet Programming (Javascript)(PHP)(HTML)(CSS)
+- Native Americans
+- Calculus III
+- Data Structures (C++)
+- Nutrition for Healthy Living
+- Two-Dimensional Design
+- Calculus & Analytic Geometry II
+- Computer Science II (Java)
+- Introductory Sociology
+- Freshmen Honors English II
+- Computer Science I (Java)
+- Freshmen Honors English I
+- Fundamentals of Speech
+- General Psychology

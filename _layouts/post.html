@@ -2,8 +2,20 @@
 layout: default
 ---
 <h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<p class="meta">{{ page.date | date: "%A | %B %d %Y | %I:%M %p" }}</p>
 
 <div class="post">
 {{ content }}
 </div>
+
+<div>
+    <p>Tags:
+    <span class="meta">
+        {% for tag in page.tags %}
+            {{ tag }}
+        {% endfor %}
+    </span>
+    </p>
+</div>
+
+{% include related-posts.html %}

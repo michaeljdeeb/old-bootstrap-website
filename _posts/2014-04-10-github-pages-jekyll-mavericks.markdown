@@ -66,3 +66,6 @@ Navigate to [jekyllrb.com](http://jekyllrb.com) for more information or type:
 Good luck and hopefully this guide was of some help!
 
 Also, feel free to checkout the [source](https://github.com/michaeljdeeb/michaeljdeeb.github.io) of this website.
+
+<!-- Place this tag where you want the widget to render. -->
+<div class="text-center"><div class="g-post" data-href="https://plus.google.com/117636037814189714964/posts/Y9gpEnryF5C"></div></div>

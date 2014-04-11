@@ -10,12 +10,24 @@ image: "selfie.jpg"
 <p class="meta">Start | Meet | Embark</p>
 <hr>
 
-<h3>Recent Blog Posts</h3>
 
+<h3>Recent Blog Posts</h3>
+<p class="meta">
+    Look for a new post here every Thursday. If there isn't one,
+    <a href="http://twitter.com/share?url=http://michaeljdeeb.com/blog&text=Hey @michaeljdeeb, it's Thursday. Where's the new blog post?" target="_blank">
+    hold me to it
+    </a>.
+</p>
 {% for post in site.posts limit:10 %}
     <div class="post">
-        <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-        <p>{{ page.date | date: "%A | %B %d %Y | %I:%M %p" }}</p>
+        <div class="row">
+            <div class="col-xs-8">
+                <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+            </div>
+            <div class="col-xs-4">
+                <p class="meta">{{ post.date | date: "%A | %B %d %Y | %I:%M %p" }}</p>
+            </div>
+        </div>
         <p>{{ post.excerpt }}</p>
     </div>
 {% endfor %}

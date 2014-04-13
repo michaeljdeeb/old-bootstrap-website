@@ -3,9 +3,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>{{ page.title }} | Michael J. Deeb</title>
-        <!-- favicon placeholder -->
-        <!-- Page descriptions 155 characters or less. -->
         <meta name="description" content="{{ page.description }}">
+
+        <!-- Icons -->
+        <link rel="apple-touch-icon-precomposed" href="../../apple-touch-icon.png">
+        <link rel="shortcut icon" href="../../favicon.ico?v=1" type="image/x-icon">
+        <link ref="icon" href="../../apple-touch-icon.png" type="image/png">
 
         <!-- Google Authorship and Publisher Markup -->
         <link rel="author" href="https://plus.google.com/117636037814189714964/posts">
@@ -45,6 +48,11 @@
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/custom.css">
+
+        {% if page.active == "resume" %}
+        <!-- Résumé Preload -->
+        <link rel="stylesheet" href="/css/resume.css">
+        {% endif %}
 
         <!-- Boostrap -->
         <link rel="stylesheet" href="/css/bootstrap.css">

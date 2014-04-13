@@ -1,0 +1,36 @@
+---
+layout: default
+active: ""
+title: 404
+description: "How did you get here?"
+image: "selfie.jpg"
+---
+
+<h1 class="header">Page Not Found</h1>
+<p class="meta">404 | Error | Lost</p>
+<hr>
+
+
+<p>
+    It's not you, it's me.
+</p>
+<p>
+    No, seriously. This is a static website built with <a href="http://jekyllrb.com">Jekyll</a>. If you followed a link and wound up here then I must've messed up somewhere.
+</p>
+<p>
+    <a href="http://twitter.com/share?url=http://michaeljdeeb.com/404.html&text=Hey @michaeljdeeb, you have a bad link on your site." target="_blank">
+    Talk to me about it?
+    </a>
+</p>
+
+<hr>
+<h3>Recent Blog Posts</h3>
+<div class="row text-center">
+    {% for post in site.posts limit:3 %}
+    <div class="col-md-4 text-left related-posts">
+        <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+        <p>{{ post.excerpt }}</p>
+        <p class="meta">{{ post.date | date: "%A | %B %d %Y | %I:%M %p" }}</p>
+    </div>
+    {% endfor %}
+</div>

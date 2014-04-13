@@ -1,0 +1,5 @@
+/* Putting this in it's own file since it doesn't seem efficient to load on every page. */
+body:before {
+    content: url(/resources/contact/markdown-selected.png) url(/resources/contact/pdf-selected.png);
+    display: none;
+}

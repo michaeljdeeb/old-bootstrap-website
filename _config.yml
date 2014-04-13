@@ -7,3 +7,4 @@ permalink: /blog/:title
 timezone: America/Minneapolis
 paginate: 10
 paginate_path: "/blog/page:num"
+include: ['/_includes/resume.markdown']

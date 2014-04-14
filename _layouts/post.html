@@ -29,4 +29,18 @@ layout: default
     </p>
 </div>
 
+<hr>
+<div class="row">
+    <div class="col-xs-6 text-left">
+        {% if page.previous != nil %}
+        <a href="{{ page.previous.url }}"><i class="fa fa-angle-double-left"></i> Previous: {{ page.previous.title }}</a>
+        {% endif %}
+    </div>
+    <div class="col-xs-6 text-right">
+        {% if page.next != nil %}
+        <a href="{{ page.next.url }}">Next: {{ page.next.title }} <i class="fa fa-angle-double-right"></i></a>
+        {% endif %}
+    </div>
+</div>
+
 {% include related-posts.html %}

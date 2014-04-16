@@ -3723,6 +3723,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   right: 0;
   left: 0;
   z-index: 1030;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 @media (min-width: 768px) {
   .navbar-fixed-top,

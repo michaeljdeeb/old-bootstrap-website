@@ -1,0 +1,21 @@
+{% if paginator.total_pages > 1 %}
+    <div class="row pages">
+        <div class="col-xs-6 text-left">
+            {% if paginator.previous_page %}
+                {% if paginator.previous_page == 1 %}
+                    <a href="/blog/index.html" class="previous"><i class="fa fa-angle-double-left"></i> Page {{ paginator.previous_page }}</a>
+                {% else %}
+                    <a href="/blog/page{{ paginator.previous_page }}" class="previous"><i class="fa fa-angle-double-left"></i> Page {{ paginator.previous_page }}</a>
+                {% endif %}
+            {% endif %}
+        </div>
+<!--         <div class="col-xs-6 meta text-center">
+            {{ paginator.total_pages }} Pages Total
+        </div> -->
+        <div class="col-xs-6 text-right">
+            {% if paginator.next_page %}
+                <a href="/blog/page{{ paginator.next_page }}" class="next">Page {{ paginator.next_page }} <i class="fa fa-angle-double-right"></i></a>
+            {% endif %}
+        </div>
+    </div>
+{% endif %}

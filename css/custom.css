@@ -40,6 +40,16 @@
     color: #aaa;
 }
 
+.pages {
+    padding-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  .pages {
+    padding-bottom: 0px;
+  }
+}
+
 /* resume.html */
 .padding-fix {
     padding:10px;

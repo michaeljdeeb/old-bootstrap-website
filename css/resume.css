@@ -1,5 +1,13 @@
 /* Putting this in it's own file since it doesn't seem efficient to load on every page. */
 body:before {
-    content: url(/resources/contact/markdown-selected.png) url(/resources/contact/pdf-selected.png);
+    content: url(/resources/images/contact/markdown-selected.png) url(/resources/images/contact/pdf-selected.png);
     display: none;
+}
+
+.markdown-hover:hover {
+    content: url('/resources/images/contact/markdown-selected.png');
+}
+
+.pdf-hover:hover {
+    content: url('/resources/images/contact/pdf-selected.png');
 }

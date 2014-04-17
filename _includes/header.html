@@ -1,6 +1,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Sorry if you have the console open and see an error below. It makes my site look pretty on Mobile Safari (iOS 7.1+) -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
 
         <title>{{ page.title }} | Michael J. Deeb</title>
         <meta name="description" content="{{ page.description }}">
@@ -14,8 +15,6 @@
         <link rel="author" href="https://plus.google.com/117636037814189714964/posts">
 
         <!-- Schema.org markup for Google+ -->
-        <!-- Google+ wants something square and height >= 120px and width >= 100px -->
-        <!-- Google will also use open graph, so maybe omit this? -->
         <meta itemprop="name" content="{{ page.title }}">
         <meta itemprop="description" content="{{ page.description }}">
         <meta itemprop="image" content="{{ site.url }}/resources/images/{{ page.image }}">
@@ -26,22 +25,21 @@
         <meta name="twitter:title" content="{{ page.title }}">
         <meta name="twitter:description" content="{{ page.description }}">
         <meta name="twitter:creator" content="@michaeljdeeb">
+        <meta name="twitter:image:src" content="{{ site.url }}/resources/images/{{ page.image }}">
+        <meta name="twitter:domain" content="michaeljdeeb.com">
 
         <!-- Open Graph data -->
-        <meta property="og:title" content="{{ page.title }}" />
-        <meta property="og:type" content="{{ page.type }}" />
-        <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-        <!-- Facebook wants at least 1200x630 -->
-        <meta property="og:image" content="{{ site.url }}/resources/images/{{ page.image }}" />
-        <meta property="og:description" content="{{ page.description }}" />
-        <meta property="og:site_name" content="michaeljdeeb.github.io" />
-        <meta property="fb:admins" content="1272690115" />
-
-        <!-- These should be placed somewhere that will only get hit by posts.
-        <meta property="article:published_time" content="2013-09-17T05:59:00+01:00" />
-        <meta property="article:modified_time" content="2013-09-16T19:08:47+01:00" />
-        <meta property="article:section" content="Article Section" />
-        <meta property="article:tag" content="Article Tag" /> -->
+        <meta property="og:title" content="{{ page.title }}">
+        {% if page.active == 'blog' %}
+            <meta property="og:type" content="article">
+        {% else %}
+            <meta property="og:type" content="website">
+        {% endif %}
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+        <meta property="og:image" content="{{ site.url }}/resources/images/{{ page.image }}">
+        <meta property="og:description" content="{{ page.description }}">
+        <meta property="og:site_name" content="michaeljdeeb.com">
+        <meta property="fb:admins" content="1272690115">
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">

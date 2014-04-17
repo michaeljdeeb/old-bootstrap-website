@@ -42,3 +42,6 @@ This means the URL will change in the browser's address bar. Now [michaeldeeb.co
 
 ###On Your Side###
 After I had configured everything correctly, pages were being routed correctly after about ten minutes. It can take up to a full day for things to go into effect though, so don't lose hope and be sure to empty your browser cache.
+
+<!-- Place this tag where you want the widget to render. -->
+<div class="text-center"><div class="g-post" data-href="https://plus.google.com/117636037814189714964/posts/JaVCgjxcpig"></div></div>

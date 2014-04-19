@@ -8,29 +8,65 @@ image: "selfie.jpg"
 <h1 class="header">Let's Talk</h1>
 <p class="meta">Connect | Follow | @Mention</p>
 <hr>
-    <p>
-        Email spam isn't fun.
-    </p>
-    <p>
-        Let's stick to these until I can verify that you aren't a robot. #TuringTest <span class="meta">(Hopefully robots are bad at reading <a href="/resources/resume.pdf">PDFs</a>...)</span>
-    </p>
-    <div class="text-center">
-        <p>
+    <h3>Pro-Email?</h3>
+    <form class="form-horizontal" action="javascript:validateForm()" method="post">
+        <div id="name-group" class="form-group">
+            <div class="col-xs-10 col-xs-offset-1 input-group">
+                <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                <input type="text" class="form-control" id="name" placeholder="Name" onblur="javascript:validateInline(this.id, this.value)">
+            </div>
+        </div>
+        <div id="email-group" class="form-group">
+            <div class="col-xs-10 col-xs-offset-1 input-group">
+                <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                <input type="email" class="form-control" id="email" placeholder="Email" onblur="javascript:validateInline(this.id, this.value)">
+            </div>
+        </div>
+        <div id="subject-group" class="form-group">
+            <div class="col-xs-10 col-xs-offset-1 input-group">
+                <span class="input-group-addon"><i class="fa fa-comment"></i></span>
+                <input type="text" class="form-control" id="subject" placeholder="Subject" onblur="javascript:validateInline(this.id, this.value)">
+            </div>
+        </div>
+        <div id="message-group" class="form-group">
+            <div class="col-xs-10 col-xs-offset-1 input-group">
+                <span class="input-group-addon"><i class="fa fa-quote-left"></i></span>
+                <textarea class="form-control" id="message" rows="5" placeholder="Message" onblur="javascript:validateInline(this.id, this.value)"></textarea>
+            </div>
+        </div>
+        <div hidden class="form-group" id="short-message-group">
+            <div class="col-xs-10 col-xs-offset-1 alert alert-warning alert-dismissable">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                Your message looks a little short. Press submit again if you'd like to send it anyways.
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-xs-offset-1">
+                <button type="submit" class="btn btn-default">Submit</button>
+            </div>
+        </div>
+    </form>
+
+    <hr>
+    <h3>Anti-Email?</h3>
+
+    <div class="row text-center">
+        <div class="col-sm-4">
             <a class="icon" href="http://www.linkedin.com/in/michaeljdeeb/"><i class="fa fa-linkedin fa-5x" href="http://www.linkedin.com/in/michaeljdeeb"></i></a>
-        </p>
-        <p>
-            <a href="http://www.linkedin.com/in/michaeljdeeb/">LinkedIn | Michael Deeb</a>
-        </p>
-        <p>
+            <p>
+                <a href="http://www.linkedin.com/in/michaeljdeeb/">LinkedIn | Michael Deeb</a>
+            </p>
+        </div>
+        <div class="col-sm-4">
             <a class="icon" href="https://github.com/michaeljdeeb"><i class="fa fa-github fa-5x"></i></a>
-        </p>
-        <p>
-            <a href="https://github.com/michaeljdeeb">GitHub | @michaeljdeeb</a>
-        </p>
-        <p>
+            <p>
+                <a href="https://github.com/michaeljdeeb">GitHub | @michaeljdeeb</a>
+            </p>
+        </div>
+        <div class="col-sm-4">
             <a class="icon" href="http://twitter.com/michaeljdeeb"><i class="fa fa-twitter fa-5x"></i></a>
-        </p>
-        <p>
-            <a href="http://twitter.com/michaeljdeeb">Twitter | @michaeljdeeb</a>
-        </p>
+            <p>
+                <a href="http://twitter.com/michaeljdeeb">Twitter | @michaeljdeeb</a>
+            </p>
+        </div>
     </div>

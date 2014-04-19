@@ -22,14 +22,15 @@ Using Jekyll within GitHub Pages is relatively straight forward, but due to some
 
 ###Install Brew###
 Navigate to [brew.sh](http://brew.sh) for more information or type:
-
+{% highlight bash %}
 	ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+{% endhighlight %}
 
 ###Install RVM & Ruby###
 Navigate to [rvm.io](https://rvm.io) for more information or type:
-
+{% highlight bash %}
 	\curl -sSL https://get.rvm.io | bash -s stable
-
+{% endhighlight %}
 
 At this point I had to quit Terminal and reopen it to get it to recognize the `rvm` command.
 
@@ -40,9 +41,9 @@ After reopening Terminal you'll want to run `rvm install 2.1.1` or you can attem
 
 ###Finally, Install Jekyll###
 Navigate to [jekyllrb.com](http://jekyllrb.com) for more information or type:
-
+{% highlight bash %}
 	gem install -V jekyll
-
+{% endhighlight %}
 **You can omit the `-V`, but your Terminal window will be blank for a lengthy amount of time.**
 
 ###Configure your GitHub Pages Project###

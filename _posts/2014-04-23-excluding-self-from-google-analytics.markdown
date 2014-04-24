@@ -73,3 +73,6 @@ By changing `UA-XXXX-Y` to your Google Analytics ID and then placing the code ab
 If you're using the classic version of Google Analytics (ga.js), you might have some luck implementing something similar by looking at this [Google Groups topic](https://productforums.google.com/d/topic/analytics/NTHhcXNvE3A/discussion).
 
 Good luck and thanks for the page view(s)!
+
+<!-- Place this tag where you want the widget to render. -->
+<div class="g-post" data-href="https://plus.google.com/117636037814189714964/posts/UEPvHXvFEbu"></div>

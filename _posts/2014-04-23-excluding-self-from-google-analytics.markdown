@@ -75,4 +75,4 @@ If you're using the classic version of Google Analytics (ga.js), you might have 
 Good luck and thanks for the page view(s)!
 
 <!-- Place this tag where you want the widget to render. -->
-<div class="g-post" data-href="https://plus.google.com/117636037814189714964/posts/UEPvHXvFEbu"></div>
+<div class="text-center"><div class="g-post" data-href="https://plus.google.com/117636037814189714964/posts/UEPvHXvFEbu"></div></div>

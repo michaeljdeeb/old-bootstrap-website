@@ -6,7 +6,7 @@ date:   2014-05-08 09:41:00
 categories: [Jekyll]
 tags: [Jekyll, Search, PHP, Google]
 description: "Search is important, but how do you accomplish it without any server-side scripting?"
-image: "github-atom-io-impression.png"
+image: "google-site-search.png"
 ---
 
 My current website implementation has been more encouraging to me than any past iteration. However, that being said, this is a blog and what good is a blog without search? Typically this can be overcome in a multitude of ways, but without any dynamic pages (not allowed by GitHub Pages), your options become rather limited.

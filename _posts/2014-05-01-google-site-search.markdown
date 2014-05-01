@@ -64,3 +64,6 @@ This rule below corrects some oddities that come with having a search bar in a r
 I don't foresee any major issues with this search solution, but if you do be sure to let me know. The worst I can think is that Google Analytics keywords reports will be skewed.
 
 Happy <i class="fa fa-search"></i>ing!
+
+<!-- Place this tag where you want the widget to render. -->
+<div class="text-center"><div class="g-post" data-href="https://plus.google.com/117636037814189714964/posts/6LYvMp6gmnq"></div></div>

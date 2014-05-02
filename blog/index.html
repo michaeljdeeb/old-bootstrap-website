@@ -17,12 +17,14 @@ image: "selfie.jpg"
             <div class="col-sm-6 text-left meta">
                 {{ post.date | date: "%A | %B %d %Y | %I:%M %p" }}
             </div>
-            <div class="col-sm-6 text-right meta">
-                By Michael Deeb</a>
+            <div class="col-sm-6 text-right meta post-length">
+                By Michael Deeb
             </div>
         </div>
 
-        <p>{{ post.content }}</p>
+        <div class="post-content">
+            {{ post.content }}
+        </div>
         <div class="row">
             <div class="col-sm-3 col-sm-push-9 text-right">
                 <a href="{{ post.url }}">Permalink</a>

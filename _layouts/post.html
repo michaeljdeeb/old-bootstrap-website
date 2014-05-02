@@ -1,18 +1,21 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<div class="row">
-    <div class="col-sm-6 text-left meta">
-        {{ page.date | date: "%A | %B %d %Y | %I:%M %p" }}
-    </div>
-    <div class="col-sm-6 text-right meta">
-        By Michael Deeb</a>
-    </div>
-</div>
-<hr>
 <div class="post">
-{{ content }}
+    <h2>{{ page.title }}</h2>
+    <div class="row">
+        <div class="col-sm-6 text-left meta">
+            {{ page.date | date: "%A | %B %d %Y | %I:%M %p" }}
+        </div>
+        <div class="col-sm-6 text-right meta post-length">
+            By Michael Deeb
+        </div>
+
+    </div>
+    <hr>
+    <div class="post-content">
+    {{ content }}
+    </div>
 </div>
 
 <div>

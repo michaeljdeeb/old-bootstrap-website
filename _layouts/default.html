@@ -3,7 +3,11 @@
     <head>
         {% include header.html %}
     </head>
+    {% if page.active == 'blog' %}
+    <body onload="javascript:writeReadingTime()">
+    {% else %}
     <body>
+    {% endif %}
         <a href="https://plus.google.com/117636037814189714964?rel=author"></a>
         {% include navbar.html %}
 
@@ -17,6 +21,6 @@
 
             </div>
         </div>
-        {% include footer.html %} 
+        {% include footer.html %}
     </body>
 </html>

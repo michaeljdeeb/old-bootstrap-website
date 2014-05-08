@@ -2,7 +2,7 @@
 layout: post
 active: "blog"
 title:  "Implementing a Search Bar without PHP"
-date:   2014-05-08 09:41:00
+date:   2014-05-01 09:41:00
 categories: [Jekyll]
 tags: [Jekyll, Search, PHP, Google]
 description: "Search is important, but how do you accomplish it without any server-side scripting?"

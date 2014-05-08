@@ -139,3 +139,6 @@ As a note, `document.getElementById("").classList` doesn't work in IE prior to v
 If I were to iterate on this implementation I'd probably write more advanced validation checks in Javascript and use jQuery for the real form submission. I'd also write in a workaround for the IE compatibility issue.
 
 If you'd like to see it in action you can check it out on my [contact page](../../contact.html) and if you have any suggestions on how to make it better or any other comments feel free to press that submit button!
+
+<!-- Place this tag where you want the widget to render. -->
+<div class="text-center"><div class="g-post" data-href="https://plus.google.com/117636037814189714964/posts/McVCR6Mnzj9"></div></div>

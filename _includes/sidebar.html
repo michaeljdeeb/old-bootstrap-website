@@ -13,14 +13,16 @@
             My name is Michael J. Deeb and I'm a Software Engineer. I write code in Java by trade, but front-end web development is where I want to be. When I'm not trying to develop  great things, I'm attempting to take great photos (iPhone and DSLR) and make great music (Ableton Live 9 and Ableton Push).
         </p>
     </div>
-    {% if page.active == "blog" %}
-    <div class="hidden-xs sidebar">
-        <h4>Tags:</h4>
-        <p class="tags">
-            {% for tag in site.tags %}
-                <div class="tag pull-left">{{ tag | first }}</div>
-            {% endfor %}
-        </p>
-    </div>
-    {% endif %}
+    <!-- {% raw %}
+        {% if page.active == "blog" %}
+        <div class="hidden-xs sidebar">
+            <h4>Tags:</h4>
+            <p class="tags">
+                {% for tag in site.tags %}
+                    <div class="tag pull-left">{{ tag | first }}</div>
+                {% endfor %}
+            </p>
+        </div>
+        {% endif %}
+    {% endraw %} -->
 </div>

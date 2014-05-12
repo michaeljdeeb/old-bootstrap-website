@@ -3,7 +3,7 @@
 
 
 ###Profile###
-**Software developer looking for a full-time position as a front-end developer.**
+**Software developer looking for a full-time position as a front-end software engineer.**
 
 ##Education##
 **University of Wisconsin-Stout - Menomonie, WI**  
@@ -27,7 +27,7 @@
 **Software Engineer: January 2013 - Present**  
 **JAMF Software: Minneapolis, MN**
 
-- Reworked existing code to solve customer problems.
+- Fixed defects in software to solve customer problems.
 - Cooperated across teams to prevent future defects.
 - Archived technical processes for current and future team members.
 - Started a foundation for automated testing via cucumber.

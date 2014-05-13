@@ -9,6 +9,8 @@ description: "How to use a custom domain name with a GitHub Pages site."
 image: "using-a-custom-domain-with-github-pages.png"
 ---
 
+**Update [05/13/2014]: Using this method may cause [slow load times](http://instantclick.io/github-pages-and-apex-domains)**
+
 As you may have noticed, as of last week this site uses a custom domain, but the content is being stored by [GitHub](https://github.com). I seem to be playing around with my domains and where they point to a lot and I also always forget how to configure my domain when I actually need to change it. This post is for both you and my future self.
 
 ####Resources You've Probably Already Found####

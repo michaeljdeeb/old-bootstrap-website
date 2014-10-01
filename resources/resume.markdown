@@ -3,7 +3,7 @@
 
 
 ###Profile###
-**Software developer looking for a full-time position as a front-end software engineer.**
+**Software engineer pursuing full-time software engineering opportunities.**
 
 ##Education##
 **University of Wisconsin-Stout - Menomonie, WI**  
@@ -24,7 +24,7 @@
 [Full Class List](http://michaeljdeeb.com/class-list.html)
 
 ##Experience##
-**Software Engineer: January 2013 - Present**  
+**Software Engineer: January 2013 - July 2014**  
 **JAMF Software: Minneapolis, MN**
 
 - Fixed defects in software to solve customer problems.
@@ -60,8 +60,8 @@
 ###Languages:###
 - Java
 - HTML/CSS
-- PHP/MySQL
 - Javascript
+- PHP/MySQL
 - Ruby
 
 ###Operating Systems:###
@@ -74,9 +74,9 @@
 ###Software:###
 - Spring Tool Suite (STS)/eclipse
 - Xcode
-- VMware
+- Git/SVN
 - Terminal
-- Cornerstone (SVN)/SourceTree (Git)
+- VMWare
 
 ####References####
 Available upon request.

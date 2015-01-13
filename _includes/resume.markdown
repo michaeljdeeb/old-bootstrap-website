@@ -3,14 +3,14 @@
 
 
 ###Profile###
-**Software engineer pursuing full-time software engineering opportunities.**
+**Engineer pursing full-time opportunities related to software engineering.**
 
 ##Education##
 **University of Wisconsin-Stout - Menomonie, WI**  
 **B.S., Applied Mathematics & Computer Science - December 2013**
 
 - Concentration in Software Development
-- AMCS Club Treasurer
+- Applied Math and Computer Science Club Treasurer
 - Chancellor's Award  
 
 **Relevant Courses:**
@@ -27,10 +27,10 @@
 **Software Engineer: January 2013 - July 2014**  
 **JAMF Software: Minneapolis, MN**
 
-- Fixed defects in software to solve customer problems.
-- Cooperated across teams to prevent future defects.
+- Fixed defects in plug-ins and core product to solve customer issues.
+- Cooperated across teams to prevent future defects with the API.
 - Archived technical processes for current and future team members.
-- Started a foundation for automated testing via cucumber.
+- Started a foundation for automated testing of plug-ins via cucumber.
 
 **Math TLC Teaching Assistant: August 2010 - May 2013**  
 **University of Wisconsin-Stout: Menomonie, WI**
@@ -51,7 +51,7 @@
 **Application Development Intern: May 2011 - September 2011**  
 **Senasys: Altoona, WI**
 
-- Solved issues of data liberation from iOS devices.
+- Solved issues of data liberation from iOS 4 and iOS 5 devices.
 - Learned iOS development independently.
 - Developed a stress testing application for MFi hardware.
 - Worked in a group of three to create solutions to iOS limitations.
@@ -72,7 +72,7 @@
 - Android
 
 ###Software:###
-- Spring Tool Suite (STS)/eclipse
+- Spring Tool Suite (STS)/Eclipse
 - Xcode
 - Git/SVN
 - Terminal

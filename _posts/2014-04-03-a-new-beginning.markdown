@@ -18,6 +18,3 @@ I tried hosted solutions like [WordPress.com](http://wordpress.com), but the UX 
 Stay tuned for the struggle of configuring it. I plan to run this website/blog with agility, so if you're seeing a webpage that looks like it belongs to the beginning of the Internet, I apologize. The best I can offer you is that I'm working on it.
 
 Feedback is great and I love to have flaws in my posts correct, but when I had WordPress installed on my server the blog comments were pretty spammy. I think I'm going to try something different this time around and hope that it sticks.
-
-<!-- Place this tag where you want the widget to render. -->
-<div class="text-center"><div class="g-post" data-href="https://plus.google.com/117636037814189714964/posts/Aqy2fhtAEw9"></div></div>

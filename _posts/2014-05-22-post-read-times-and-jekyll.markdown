@@ -70,6 +70,3 @@ For this page's icon set I went with [Font Awesome](http://fortawesome.github.io
 If I were to improve upon this initial implementation I would refine the estimation algorithm. Using jQuery it looks like I could efficiently remove the `<code>` snippets so that they weren't factoring into the reading time as someone will take longer reading through code snippets. Also, I'd probably abandon Javascript all together for this and find a way to write it up with [Liquid](http://docs.shopify.com/themes/liquid-basics) so that it wouldn't have to be computed by the user's device.
 
 Hopefully this article took you exactly 4 minutes to read.
-
-<!-- Place this tag where you want the widget to render. -->
-<div class="text-center"><div class="g-post" data-href="https://plus.google.com/117636037814189714964/posts/aRdRvrkZBCt"></div></div>

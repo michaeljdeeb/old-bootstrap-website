@@ -42,6 +42,3 @@ I spend a large majority of my day in [Spring Tool Suite](http://spring.io/tools
 - `cmd-space` - Autocomplete
 
 If I missed anything that should be noted feel free to [let me know](../../contact.html).
-
-<!-- Place this tag where you want the widget to render. -->
-<div class="text-center"><div class="g-post" data-href="https://plus.google.com/117636037814189714964/posts/J5qBW6HsKzq"></div></div>

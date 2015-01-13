@@ -60,7 +60,7 @@
 ###Languages:###
 - Java
 - HTML/CSS
-- Javascript
+- JavaScript
 - PHP/MySQL
 - Ruby
 

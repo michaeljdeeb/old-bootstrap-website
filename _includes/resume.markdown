@@ -27,7 +27,7 @@
 **Software Engineer: January 2013 - July 2014**  
 **JAMF Software: Minneapolis, MN**
 
-- Fixed defects in plug-ins and core product to solve customer issues.
+- Fixed defects in Java plug-ins and core product to solve customer issues.
 - Cooperated across teams to prevent future defects with the API.
 - Archived technical processes for current and future team members.
 - Started a foundation for automated testing of plug-ins via cucumber.
@@ -52,7 +52,7 @@
 **Senasys: Altoona, WI**
 
 - Solved issues of data liberation from iOS 4 and iOS 5 devices.
-- Learned iOS development independently.
+- Learned Objective-C for iOS development independently.
 - Developed a stress testing application for MFi hardware.
 - Worked in a group of three to create solutions to iOS limitations.
 - Aided in creating UI layouts that are familiar to smartphone users.

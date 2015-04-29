@@ -49,7 +49,7 @@ Since my site is relatively static (not passing multiple arguments via URL) I us
         // Verify the url is like http://example.com?param=true
         // and then create the opt-out cookie
         var disableStr = 'ga-disable-' + gaProperty;
-        if (customurl) {
+        if (param) {
             document.cookie = disableStr + "=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/";
             window[disableStr] = true
         }

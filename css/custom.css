@@ -5,6 +5,17 @@
   }
 }
 
+@font-face {
+  font-family: "SFUIDisplay";
+  src: url(../resources/SF-UI-Display-Thin.otf);
+}
+
+@font-face {
+  font-family: "SFUIDisplay";
+  src: url(../resources/SF-UI-Display-Regular.otf);
+  font-weight: bold;
+}
+
 .navbar .navbar-form{
     padding: 0 15px;
     border: 0;

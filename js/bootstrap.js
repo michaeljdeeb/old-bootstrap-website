@@ -609,6 +609,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   // =================
 
   $(document).on('click.bs.collapse.data-api', '[data-toggle=collapse]', function (e) {
+    $('.navbar-toggle').toggleClass('ease-arrow');
     var $this   = $(this), href
     var target  = $this.attr('data-target')
         || e.preventDefault()

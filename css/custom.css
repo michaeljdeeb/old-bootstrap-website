@@ -28,6 +28,12 @@
     box-shadow: none;
 }
 
+.ease-arrow {
+   -webkit-transform: scaleY(-1);
+      -ms-transform: scaleY(-1);
+          transform: scaleY(-1);
+}
+
 .sidebar {
     padding: 15px;
     border-radius: 4px;

@@ -11,7 +11,7 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  margin-top: 75px;
+  margin-top: 88px;
 }
 article,
 aside,
@@ -3463,7 +3463,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 10px 20px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -3645,7 +3645,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar {
   position: relative;
-  min-height: 50px;
+  min-height: 68px;
   margin-bottom: 20px;
 }
 @media (min-width: 768px) {
@@ -3659,7 +3659,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-collapse {
-  max-height: 340px;
+  max-height: 361px;
   padding-right: 15px;
   padding-left: 15px;
   overflow-x: visible;
@@ -3742,8 +3742,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  height: 50px;
-  padding: 15px 15px;
+  height: 68px;
+  padding: 42px 24px 6px;
   font-size: 18px;
   line-height: 20px;
 }
@@ -3761,9 +3761,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   float: right;
   padding: 9px 10px;
-  margin-top: 8px;
+  margin-top: 17px;
   margin-right: 15px;
-  margin-bottom: 8px;
+  margin-bottom: 17px;
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
@@ -3790,8 +3790,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin: 7.5px -15px;
 }
 .navbar-nav > li > a {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 42px;
+  padding-bottom: 6px;
   line-height: 20px;
 }
 @media (max-width: 767px) {
@@ -3825,8 +3825,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 42px;
+    padding-bottom: 6px;
   }
   .navbar-nav.navbar-right:last-child {
     margin-right: -15px;
@@ -3842,9 +3842,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-form {
   padding: 10px 15px;
-  margin-top: 8px;
   margin-right: -15px;
-  margin-bottom: 8px;
   margin-left: -15px;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;

@@ -1,9 +1,9 @@
 ---
 layout: post
 active: "blog"
-title:  "Github's Atom.io Impression"
+title:  "GitHub's Atom.io Impression"
 date:   2014-05-15 09:41:00
-categories: [Atom]
+category: [Thoughts On Tech]
 tags: [Atom, Atom Editor, Atom.io, GitHub, Review, xmllint]
 description: "GitHub released a text editor at the end of February and I received an invite to try it at the beginning of March. This is my review."
 image: "github-atom-io-impression.png"

@@ -3,7 +3,7 @@ layout: post
 active: "blog"
 title:  "Using a Custom Domain with GitHub Pages"
 date:   2014-04-17 09:41:00
-categories: [GitHub Pages]
+category: [Troubleshooting]
 tags: [GitHub Pages, A, CNAME, DNS, Domain, Domain Name, Forwarding, Hover]
 description: "How to use a custom domain name with a GitHub Pages site."
 image: "using-a-custom-domain-with-github-pages.png"

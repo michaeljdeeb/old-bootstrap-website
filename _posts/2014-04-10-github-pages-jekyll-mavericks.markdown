@@ -1,10 +1,10 @@
 ---
 layout: post
 active: "blog"
-title:  "Github Pages, Jekyll, and Mavericks, Oh My!"
+title:  "GitHub Pages, Jekyll, and Mavericks, Oh My!"
 date:   2014-04-10 09:41:00
-categories: [github pages, jekyll, mavericks]
-tags: [GitHub Pages, Jekyll, Mavericks, DIY, Ruby]
+category: [Troubleshooting]
+tags: [GitHub Pages, Jekyll, Mavericks, Ruby]
 description: "My tutorial on how to get up and running with GitHub Pages and Jekyll under OS X Mavericks."
 image: "github-pages-jekyll-mavericks.png"
 ---

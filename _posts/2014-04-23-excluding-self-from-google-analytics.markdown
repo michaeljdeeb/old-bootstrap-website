@@ -3,8 +3,8 @@ layout: post
 active: "blog"
 title:  "Excluding Yourself from Google Analytics"
 date:   2014-04-24 09:41:00
-categories: [Analytics]
-tags: [Google, Google Analytics, Javascript]
+category: [Programming]
+tags: [Google, Google Analytics, JavaScript]
 description: "Website analytics are exciting until you realize you're most of your site's visitors."
 image: "excluding-self-from-google-analytics.png"
 ---
@@ -33,7 +33,7 @@ This method wasn't ideal for me either because I wanted to be able to work on th
 ###Opt-out via cookies###
 I settled for creating a cookie to opt-out of tracking because they work on desktops and mobile devices and won't require much maintenance long-term. Google has great documentation on how to implement this on their [advanced configurations for Google Analytics](https://developers.google.com/analytics/devguides/collection/analyticsjs/advanced#optout) webpage.
 
-Since my site is relatively static (not passing multiple arguments via URL) I used some pretty basic Javascript to detect if the argument was passed and create a cookie to opt-out if that's the case.
+Since my site is relatively static (not passing multiple arguments via URL) I used some pretty basic JavaScript to detect if the argument was passed and create a cookie to opt-out if that's the case.
 
 {% highlight javascript linenos %}
 

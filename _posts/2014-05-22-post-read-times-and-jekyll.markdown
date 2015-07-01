@@ -3,8 +3,8 @@ layout: post
 active: "blog"
 title:  "Post Read Times and Jekyll"
 date:   2014-05-22 09:41:00
-categories: [Jekyll]
-tags: [Jekyll, Plug-in, GitHub Pages, Javascript, Reading Times]
+category: [Programming]
+tags: [Jekyll, Plug-in, GitHub Pages, JavaScript, Reading Times]
 description: "Jekyll has been good to me, but I've fallen in Love with Medium's \"x min read\" metric and wanted it for my own site."
 image: "post-read-times-and-jekyll.png"
 ---
@@ -28,7 +28,7 @@ The solution I came up with runs on an entire page when called. It looks for ele
 </div>
 {% endhighlight %}
 
-I chose not to execute this function until after the page has loaded because I wanted the page to load faster rather than display the reading time sooner, so as a placeholder I just author the article to myself in the `post-length` section. This also works well as a fallback if the user has opted to disable Javascript.
+I chose not to execute this function until after the page has loaded because I wanted the page to load faster rather than display the reading time sooner, so as a placeholder I just author the article to myself in the `post-length` section. This also works well as a fallback if the user has opted to disable JavaScript.
 
 **footer.html**
 {% highlight html linenos %}
@@ -67,6 +67,6 @@ function writeReadingTime() {
 For this page's icon set I went with [Font Awesome](http://fortawesome.github.io/Font-Awesome/). If you're using something different just correct lines 15 and 17 in the above function to what you need them to be.
 
 ####Criticisms####
-If I were to improve upon this initial implementation I would refine the estimation algorithm. Using jQuery it looks like I could efficiently remove the `<code>` snippets so that they weren't factoring into the reading time as someone will take longer reading through code snippets. Also, I'd probably abandon Javascript all together for this and find a way to write it up with [Liquid](http://docs.shopify.com/themes/liquid-basics) so that it wouldn't have to be computed by the user's device.
+If I were to improve upon this initial implementation I would refine the estimation algorithm. Using jQuery it looks like I could efficiently remove the `<code>` snippets so that they weren't factoring into the reading time as someone will take longer reading through code snippets. Also, I'd probably abandon JavaScript all together for this and find a way to write it up with [Liquid](http://docs.shopify.com/themes/liquid-basics) so that it wouldn't have to be computed by the user's device.
 
 Hopefully this article took you exactly 4 minutes to read.

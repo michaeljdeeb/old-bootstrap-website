@@ -3,7 +3,7 @@ layout: post
 active: "blog"
 title:  "Programming Challenge: Change Calculator [Obj-C]"
 date:   2013-03-11 12:00:00
-categories: [Migrated, dailyprogrammer]
+category: [Programming]
 tags: [Gist, GitHub, Mac, Objective-C, ObjectiveC, Programming, r/dailyprogrammer, Xcode]
 description: "A migrated blog post about a change calculator that takes in values in USD in objective-c."
 image: "migrated-programming-challenge-change-calculator.png"

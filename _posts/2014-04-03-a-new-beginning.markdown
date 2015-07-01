@@ -3,8 +3,8 @@ layout: post
 active: "blog"
 title:  "A New Beginning"
 date:   2014-04-03 09:41:00
-categories: [Personal]
-tags: [Personal, GitHub, Github Pages, Jekyll, WordPress]
+category: [Meta]
+tags: [Personal, GitHub, GitHub Pages, Jekyll, WordPress]
 description: "A personal post about Michael J. Deeb's migration from WordPress to Jekyll."
 image: "a-new-beginning.png"
 ---

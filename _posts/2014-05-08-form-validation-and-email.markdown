@@ -3,8 +3,8 @@ layout: post
 active: "blog"
 title:  "Form Validation and Email"
 date:   2014-05-08 09:41:00
-categories: [Javascript, Bootstrap]
-tags: [Form, Validation, Jekyll, Bootstrap, Simple Form, Javascript]
+category: [Programming]
+tags: [Form, Validation, Jekyll, Bootstrap, Simple Form, JavaScript]
 description: "With this iteration of my website I opted to avoid email, but then I changed my mind."
 image: "form-validation-and-email.png"
 ---
@@ -136,6 +136,6 @@ As a note, `document.getElementById("").classList` doesn't work in IE prior to v
 {% endhighlight %}
 
 ####Criticisms####
-If I were to iterate on this implementation I'd probably write more advanced validation checks in Javascript and use jQuery for the real form submission. I'd also write in a workaround for the IE compatibility issue.
+If I were to iterate on this implementation I'd probably write more advanced validation checks in JavaScript and use jQuery for the real form submission. I'd also write in a workaround for the IE compatibility issue.
 
 If you'd like to see it in action you can check it out on my [contact page](../../contact.html) and if you have any suggestions on how to make it better or any other comments feel free to press that submit button!

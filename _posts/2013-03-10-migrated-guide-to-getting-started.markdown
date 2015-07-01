@@ -3,7 +3,7 @@ layout: post
 active: "blog"
 title:  "The Guide to Getting Started"
 date:   2013-03-10 12:00:00
-categories: [Migrated, Learn CS]
+category: [Programming]
 tags: [Career, Careers, Code, Computer Science, CS, Develop, Education, GitHub, Help, Java, Programming, Reddit, Resume]
 description: "A great reference guide for new programmers looking to branch out from the classroom."
 image: "migrated-guide-to-getting-started.png"

@@ -1,5 +1,5 @@
 - Internship (Java)
-- Advanced Software Engineering (HTML)(CSS)(Javascript)(PHP)(MySQL)
+- Advanced Software Engineering (HTML)(CSS)(JavaScript)(PHP)(MySQL)
 - Food Technology
 - Foundations Language of Math
 - General Ethics
@@ -22,7 +22,7 @@
 - Linear Algebra
 - Modern Geometry
 - Introduction to Computer Organization (Assembly)
-- Web & Internet Programming (Javascript)(PHP)(HTML)(CSS)
+- Web & Internet Programming (JavaScript)(PHP)(HTML)(CSS)
 - Native Americans
 - Calculus III
 - Data Structures (C++)

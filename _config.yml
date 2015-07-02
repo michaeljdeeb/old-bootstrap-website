@@ -1,6 +1,6 @@
 name: michaeljdeeb.com
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 baseurl: /
 url: http://michaeljdeeb.com
 permalink: /blog/:title

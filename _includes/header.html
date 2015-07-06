@@ -35,6 +35,11 @@
         {% else %}
             <meta property="og:type" content="website">
         {% endif %}
+        {% if page.url contains 'html' %}
+            <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+        {% else %}
+            <meta property="og:url" content="{{ site.url }}{{ page.url }}/">
+        {% endif %}
         <meta property="og:image" content="{{ site.url }}/resources/images/{{ page.image }}">
         <meta property="og:description" content="{{ page.description }}">
         <meta property="og:site_name" content="michaeljdeeb.com">

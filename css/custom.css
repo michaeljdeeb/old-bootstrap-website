@@ -12,11 +12,19 @@
 
 @font-face {
   font-family: "SFUIDisplay";
-  src: url(../resources/SF-UI-Display-Thin.otf);
+  src: url(../resources/SF-UI-Display-Regular.otf);
 }
-
 @font-face {
   font-family: "SFUIDisplay";
+  src: url(../resources/SF-UI-Display-Bold.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: "SFUIDisplay@2x";
+  src: url(../resources/SF-UI-Display-Thin.otf);
+}
+@font-face {
+  font-family: "SFUIDisplay@2x";
   src: url(../resources/SF-UI-Display-Regular.otf);
   font-weight: bold;
 }
